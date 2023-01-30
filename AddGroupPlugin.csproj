@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="MG.Protobuf">
+      <HintPath>..\dotnet6.0\MG.Protobuf.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MG.WeCode">
+      <HintPath>..\dotnet6.0\MG.WeCode.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\dotnet6.0\Newtonsoft.Json.dll</HintPath>
+		<Private>False</Private>
+    </Reference>
+    <Reference Include="Plugin">
+      <HintPath>..\dotnet6.0\Plugin.dll</HintPath>
+		<Private>False</Private>
+    </Reference>
+    <Reference Include="SuperWx">
+      <HintPath>..\dotnet6.0\SuperWx.dll</HintPath>
+		<Private>False</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
